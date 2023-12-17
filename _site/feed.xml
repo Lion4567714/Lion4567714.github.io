@@ -1,17 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-15T16:11:52-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/12/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-12-15T15:54:02-08:00</published><updated>2023-12-15T15:54:02-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-16T16:17:29-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>This is just a place where I can play around with fun web development things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T15:00:00-08:00</published><updated>2023-12-16T15:00:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;For the most part, everything I have made has been with the help of these two resources.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;languages-and-how-theyre-used&quot;&gt;Languages and How They’re Used&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby: package manager via gemfile&lt;/li&gt;
+  &lt;li&gt;Jekyll: brains of the operation&lt;/li&gt;
+  &lt;li&gt;YAML: configuration files&lt;/li&gt;
+  &lt;li&gt;SASS: style&lt;/li&gt;
+  &lt;li&gt;HTML: page structure&lt;/li&gt;
+  &lt;li&gt;Markdown: page contents&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Font:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;CaskaydiaCove&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fonts courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;&lt;/p&gt;</content><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><category term="jekyll" /><category term="update" /><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:4000/jekyll/update/2023/12/16/first-post.html" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T12:20:00-08:00</published><updated>2023-12-16T12:20:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/first-post</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/first-post.html">&lt;p&gt;Hello! This is a brand-new website I’m cooking up during winter break this year. In this post, I want to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-am-i-here&quot;&gt;Why am I here?&lt;/h3&gt;
+
+&lt;p&gt;I dunno. You tell me. I’m surprised you even found this in the first place. &lt;a href=&quot;mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!&quot;&gt;Come say hi&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;why-are-you-making-this-website&quot;&gt;Why are you making this website?&lt;/h3&gt;
+
+&lt;p&gt;I like doing side projects, and having a website seemed pretty cool to me, so here we are.&lt;/p&gt;
+
+&lt;p&gt;I had a website before this one that I made using React, Typescript, and TailwindCSS. I was inspired by the website of a good friend of mine &lt;a href=&quot;https://www.loophole.engineer/&quot;&gt;here&lt;/a&gt;. He’s a serious web developer; I recommend checking his stuff out. Anyway, long story short, it ended up being a bigger project than I wanted or had time for. So…&lt;/p&gt;
+
+&lt;p&gt;Here I am with a &lt;em&gt;new&lt;/em&gt; website made through GitHub Pages and Jekyll. From the little I have done in the past couple days, it seems much easier to handle and it just looks good right off the bat.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-your-plans-for-this-site&quot;&gt;What are your plans for this site?&lt;/h3&gt;
+
+&lt;p&gt;Primarily to learn and have fun. Secondarily, to post about the things I learn in a fun format. I would like this website to have more content and be better updated than my previous website project.&lt;/p&gt;
+
+&lt;p&gt;I think this website would also be a good place to post coding cheat sheets to refer back to in the future. I currently have a &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&quot;&gt;GitHub markdown language cheat sheet&lt;/a&gt; up as I’m writing this.&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. I look forward to working on this project further!&lt;/p&gt;</content><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><category term="jekyll" /><category term="update" /><summary type="html">Hello! This is a brand-new website I’m cooking up during winter break this year. In this post, I want to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>
