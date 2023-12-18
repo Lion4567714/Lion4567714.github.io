@@ -20,15 +20,24 @@
 
 author:
   name: Anders Gilliland
-  email: gillilan@purdue.edu
+  username: Lion4567714
+
+socials:
+  - { platform: email,    preview: "lion@ablion.dev",    link: "mailto:lion@ablion.dev" }
+  - { platform: github,   preview: "lion4567714",        link: "https://github.com/Lion4567714" }
+  - { platform: linkedin, preview: "anders-gilliland",   link: "https://www.linkedin.com/in/anders-gilliland/" }
 
 title: Lion's Blog
-email: gillilan@purdue.com
+email: lion@ablion.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  This is just a place where I can play around with fun web development things.
+  Blog + A place I play with fun web dev things.
   Still in the works, obviously.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ablion.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
+profile_picture: "./assets/images/headshot.jpg"
+
+markdown: kramdown
 
 # What to show on the header
 header_pages:
@@ -43,13 +52,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
-minima:
-  skin: dark
-  social_links:
-    - { platform: github, user_url: "https://github.com/Lion4567714" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/anders-gilliland/" }
-  
+theme: lions-jekyll-theme
+
 google_analytics: UA-NNNNNNNN-N
 
 # Exclude from processing.
