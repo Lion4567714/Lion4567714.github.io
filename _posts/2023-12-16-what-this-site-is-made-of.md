@@ -7,10 +7,11 @@ categories: jekyll update
 
 ## Guides
 
-For the most part, everything I have made has been with the help of these two resources.
+Sites that have helped me a lot over the course of this project.
 
 - [GitHub Pages](https://pages.github.com/)
 - [Jekyll Docs](https://jekyllrb.com/docs/)
+- [Mozilla Docs](https://developer.mozilla.org/en-US/)
 
 ## Languages and How They're Used
 
@@ -23,8 +24,14 @@ For the most part, everything I have made has been with the help of these two re
 
 ## Resources
 
-Font:
+Theme framework (modified by me):
+
+- [Minima](https://github.com/jekyll/minima)
+
+Font (courtesy of [Nerd Fonts](https://www.nerdfonts.com/)):
 
 - [CaskaydiaCove](https://www.nerdfonts.com/font-downloads)
+  
+SVG files:
 
-Fonts courtesy of [Nerd Fonts](https://www.nerdfonts.com/)
+- [Font Awesome](https://fontawesome.com/)

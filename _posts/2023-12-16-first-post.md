@@ -5,7 +5,7 @@ date:   2023-12-16 12:20:00 -0800
 categories: jekyll update
 ---
 
-Hello! This is a brand-new website I'm cooking up during winter break this year. In this post, I want to outline what I'm doing here and what I plan for the future of this website.
+Hello! &#x1F44B; This is a brand-new website I'm cooking up during winter break this year. This post is just to outline what I'm doing here and what I plan for the future of this website.
 
 ### Why am I here?
 
@@ -27,7 +27,7 @@ I think this website would also be a good place to post coding cheat sheets to r
 
 ### Closing Thoughts
 
-Thanks to anyone who came by to visit. Feel free to [contact me][hi] and say hi. I look forward to working on this project further!
+Thanks to anyone who came by to visit. Feel free to [contact me][hi] and say hi. Hopefully this website stays relatively updated... &#128512;
 
 [hi]: mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!
 [willys website]: https://www.loophole.engineer/

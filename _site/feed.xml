@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-16T16:17:29-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>This is just a place where I can play around with fun web development things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T15:00:00-08:00</published><updated>2023-12-16T15:00:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-18T15:36:23-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>Blog + A place I play with fun web dev things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name></author><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T15:00:00-08:00</published><updated>2023-12-16T15:00:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/what-this-site-is-made-of.html">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
 
-&lt;p&gt;For the most part, everything I have made has been with the help of these two resources.&lt;/p&gt;
+&lt;p&gt;Sites that have helped me a lot over the course of this project.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/&quot;&gt;Mozilla Docs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;languages-and-how-theyre-used&quot;&gt;Languages and How They’re Used&lt;/h2&gt;
@@ -20,13 +21,23 @@
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;Font:&lt;/p&gt;
+&lt;p&gt;Theme framework (modified by me):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Font (courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;):&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;CaskaydiaCove&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Fonts courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;&lt;/p&gt;</content><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><category term="jekyll" /><category term="update" /><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:4000/jekyll/update/2023/12/16/first-post.html" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T12:20:00-08:00</published><updated>2023-12-16T12:20:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/first-post</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/first-post.html">&lt;p&gt;Hello! This is a brand-new website I’m cooking up during winter break this year. In this post, I want to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
+&lt;p&gt;SVG files:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><category term="jekyll" /><category term="update" /><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:4000/jekyll/update/2023/12/16/first-post.html" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T12:20:00-08:00</published><updated>2023-12-16T12:20:00-08:00</updated><id>http://localhost:4000/jekyll/update/2023/12/16/first-post</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/12/16/first-post.html">&lt;p&gt;Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-am-i-here&quot;&gt;Why am I here?&lt;/h3&gt;
 
@@ -48,4 +59,4 @@
 
 &lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
 
-&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. I look forward to working on this project further!&lt;/p&gt;</content><author><name>Anders Gilliland</name><email>gillilan@purdue.edu</email></author><category term="jekyll" /><category term="update" /><summary type="html">Hello! This is a brand-new website I’m cooking up during winter break this year. In this post, I want to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>
+&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. Hopefully this website stays relatively updated… 😀&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><category term="jekyll" /><category term="update" /><summary type="html">Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>
