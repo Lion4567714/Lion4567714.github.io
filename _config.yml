@@ -50,9 +50,10 @@ header_pages:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-remote-theme
 
-theme: lions-jekyll-theme
+remote_theme: Lion4567714/lions-jekyll-theme
 
 google_analytics: UA-NNNNNNNN-N
 
