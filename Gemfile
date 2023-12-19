@@ -10,7 +10,7 @@ source "https://rubygems.org"
 #gem "jekyll", "~> 4.3.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
-gem "lions-jekyll-theme"
+gem "lions-jekyll-theme", '~> 0.1.0'
 
 # Use this for skin usage (ew?)
 gem 'jekyll-remote-theme', '~> 0.4.3'
