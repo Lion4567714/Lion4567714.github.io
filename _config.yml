@@ -53,9 +53,10 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-remote_theme: Lion4567714/lions-jekyll-theme
+#remote_theme: Lion4567714/lions-jekyll-theme
+theme: lions-jekyll-theme
 
-google_analytics: UA-NNNNNNNN-N
+google_analytics: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

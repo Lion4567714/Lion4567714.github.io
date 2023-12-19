@@ -20,7 +20,7 @@ Hikes and Nature Walks:
 - [Cataract Falls](https://www.alltrails.com/explore/trail/us/indiana/cataract-falls-via-ed-dailey-nature-trail)
 - [Dragon's Tooth Trail](https://www.alltrails.com/explore/trail/us/virginia/dragon-s-tooth-from-miller-cove-rd)
 
-**Music** is a very important part of my life. I've explored many genres, but I finally settled on a few including Soviet rock, Japanese fusion and city pop, and 70s soft rock. Here are some of the more meaningful artists to me:
+**Music** is a very important part of my life. I've explored many genres, but I finally settled on a few including Japanese fusion and city pop, Soviet rock, and 70s soft rock. Here are some of the more meaningful artists to me:
 
 Artists:
 - [Kino](https://open.spotify.com/artist/2jkl2xJVm71azWAgZKyf42?si=gUhTkytiRUK1po6ofUdl8A)
@@ -30,4 +30,4 @@ Artists:
 If you feel like contacting me, feel free to shoot me an [email][email].
 
 [purdue]: https://www.google.com/maps/place/Purdue+University/@40.4237054,-86.9237695,17z/data=!3m1!4b1!4m6!3m5!1s0x8812fd37423e0507:0x8eccb2cf8b1a7c8e!8m2!3d40.4237054!4d-86.9211946!16zL20vMDV4XzU
-[email]: mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!
+[email]: mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!
