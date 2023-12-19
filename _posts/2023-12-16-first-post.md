@@ -29,6 +29,6 @@ I think this website would also be a good place to post coding cheat sheets to r
 
 Thanks to anyone who came by to visit. Feel free to [contact me][hi] and say hi. Hopefully this website stays relatively updated... &#128512;
 
-[hi]: mailto:gillilan@purdue.edu?subject=ablion.dev,%20Hello!
+[hi]: mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!
 [willys website]: https://www.loophole.engineer/
 [gh md sheet]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
