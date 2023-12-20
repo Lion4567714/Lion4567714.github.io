@@ -40,8 +40,8 @@ plugins:
   - jekyll-remote-theme
 
 # Uncomment remote_theme for production, theme for development
-#remote_theme: Lion4567714/lions-jekyll-theme
-theme: lions-jekyll-theme
+remote_theme: Lion4567714/lions-jekyll-theme
+#theme: lions-jekyll-theme
 
 google_analytics: true
 

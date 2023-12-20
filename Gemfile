@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # To run Jekyll, run command: `bundle exec jekyll serve`
 
 # Uncomment when playing around theme locally, comment for production
-gem "lions-jekyll-theme", '~> 0.1.1'
+#gem "lions-jekyll-theme", '~> 0.1.1'
 
 # Used to grab theme off rubygems.org rather than from local copy
 
