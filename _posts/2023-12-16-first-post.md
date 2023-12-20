@@ -2,7 +2,6 @@
 layout: post
 title:  "First Post and Website Project Goals"
 date:   2023-12-16 12:20:00 -0800
-categories: jekyll update
 ---
 
 Hello! &#x1F44B; This is a brand-new website I'm cooking up during winter break this year. This post is just to outline what I'm doing here and what I plan for the future of this website.

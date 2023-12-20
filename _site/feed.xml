@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:7714/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:7714/" rel="alternate" type="text/html" /><updated>2023-12-19T14:12:07-08:00</updated><id>http://localhost:7714/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>Blog + A place I play with fun web dev things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name></author><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:7714/jekyll/update/2023/12/16/what-this-site-is-made-of.html" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T15:00:00-08:00</published><updated>2023-12-16T15:00:00-08:00</updated><id>http://localhost:7714/jekyll/update/2023/12/16/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:7714/jekyll/update/2023/12/16/what-this-site-is-made-of.html">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-20T00:23:30-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>Blog + A place I play with fun web dev things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name></author><entry><title type="html">Development of This Website</title><link href="http://localhost:4000/2023/development-of-this-website" rel="alternate" type="text/html" title="Development of This Website" /><published>2023-12-20T00:00:00-08:00</published><updated>2023-12-20T00:00:00-08:00</updated><id>http://localhost:4000/2023/development-of-this-website</id><content type="html" xml:base="http://localhost:4000/2023/development-of-this-website">&lt;p&gt;This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I’m developing it, feel free to continue reading. 😉&lt;/p&gt;
+&lt;h2 id=&quot;whats-been-done&quot;&gt;What’s been done&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Set up Jekyll
+    &lt;ul&gt;
+      &lt;li&gt;Website is functional&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Publish website
+    &lt;ul&gt;
+      &lt;li&gt;It’s available to everyone! Yay!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Created basis for custom Jekyll theme
+    &lt;ul&gt;
+      &lt;li&gt;I’m using a custom theme which gives me complete control over how the website looks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Better URLs (easier to read)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-causing-problems&quot;&gt;What’s causing problems&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Separate configuration for development and production environments
+    &lt;ul&gt;
+      &lt;li&gt;With the current setup, I have to remember to fix the configuration files every time I update the website. This might involve customizing the building of the website on GitHub’s end. Which will be interesting to say the least.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Mobile support
+    &lt;ul&gt;
+      &lt;li&gt;“But the website looks great on my monitor!” -every web developer ever. Half of the people I asked to view my website used their phone.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Finding a good, readable font
+    &lt;ul&gt;
+      &lt;li&gt;While &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt; is awesome, their fonts are designed for nerds and their terminals. Which means not awesome for plain reading. I need to strike a balance between cool looking and legible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-needs-doing&quot;&gt;What needs doing&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Website and Jekyll theme documentation
+    &lt;ul&gt;
+      &lt;li&gt;Good luck following along with what I’m trying to do. The comments are few and far between&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Easier emojis with &lt;a href=&quot;https://github.com/jekyll/jemoji&quot;&gt;emoji plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;“Date edited” tags on posts
+    &lt;ul&gt;
+      &lt;li&gt;Of the two posts that I have now, I’ve gone back to them on occasion to spiff them up. Sometimes it’s important to know things have changed.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Tags on posts
+    &lt;ul&gt;
+      &lt;li&gt;Helps organize things&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Sortings ports
+    &lt;ul&gt;
+      &lt;li&gt;By tag, title, date, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I’m developing it, feel free to continue reading. 😉 What’s been done Set up Jekyll Website is functional Publish website It’s available to everyone! Yay! Created basis for custom Jekyll theme I’m using a custom theme which gives me complete control over how the website looks Better URLs (easier to read)</summary></entry><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:4000/2023/what-this-site-is-made-of" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T15:00:00-08:00</published><updated>2023-12-16T15:00:00-08:00</updated><id>http://localhost:4000/2023/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:4000/2023/what-this-site-is-made-of">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
 
 &lt;p&gt;Sites that have helped me a lot over the course of this project.&lt;/p&gt;
 
@@ -27,17 +90,18 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Font (courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;Fonts (courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;):&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;CaskaydiaCove&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;JetBrains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;Mononoki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;SVG files:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><category term="jekyll" /><category term="update" /><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:7714/jekyll/update/2023/12/16/first-post.html" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T12:20:00-08:00</published><updated>2023-12-16T12:20:00-08:00</updated><id>http://localhost:7714/jekyll/update/2023/12/16/first-post</id><content type="html" xml:base="http://localhost:7714/jekyll/update/2023/12/16/first-post.html">&lt;p&gt;Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:4000/2023/first-post" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T12:20:00-08:00</published><updated>2023-12-16T12:20:00-08:00</updated><id>http://localhost:4000/2023/first-post</id><content type="html" xml:base="http://localhost:4000/2023/first-post">&lt;p&gt;Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-am-i-here&quot;&gt;Why am I here?&lt;/h3&gt;
 
@@ -59,4 +123,4 @@
 
 &lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
 
-&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. Hopefully this website stays relatively updated… 😀&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><category term="jekyll" /><category term="update" /><summary type="html">Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>
+&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. Hopefully this website stays relatively updated… 😀&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">Hello! 👋 This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>

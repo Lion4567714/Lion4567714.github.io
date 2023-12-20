@@ -2,7 +2,6 @@
 layout: post
 title:  "What This Site is Made Of"
 date:   2023-12-16 15:00:00 -0800
-categories: jekyll update
 ---
 
 ## Guides
@@ -28,9 +27,10 @@ Theme framework (modified by me):
 
 - [Minima](https://github.com/jekyll/minima)
 
-Font (courtesy of [Nerd Fonts](https://www.nerdfonts.com/)):
+Fonts (courtesy of [Nerd Fonts](https://www.nerdfonts.com/)):
 
-- [CaskaydiaCove](https://www.nerdfonts.com/font-downloads)
+- [JetBrains](https://www.nerdfonts.com/font-downloads)
+- [Mononoki](https://www.nerdfonts.com/font-downloads)
   
 SVG files:
 

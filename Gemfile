@@ -1,26 +1,20 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-#gem "jekyll", "~> 4.3.2"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-#gem "minima", "~> 2.5"
-#gem "lions-jekyll-theme", '~> 0.1.0'
 
-# Use this for skin usage (ew?)
-gem 'jekyll-remote-theme', '~> 0.4.3'
+# To run Jekyll, run command: `bundle exec jekyll serve`
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# Uncomment when playing around theme locally, comment for production
+gem "lions-jekyll-theme", '~> 0.1.1'
+
+# Used to grab theme off rubygems.org rather than from local copy
+
+# To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 228", group: :jekyll_plugins
-# If you have any plugins, put them here!
+# Plugins go here
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8.0"
+  gem "jekyll-include-cache", "~> 0.2.1"
+  gem 'jekyll-remote-theme', '~> 0.4.3'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

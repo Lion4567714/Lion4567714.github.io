@@ -139,6 +139,7 @@ table th { background-color: #323232; }
 @font-face { font-family: JetBrains; src: url("../fonts/JetBrainsMonoNerdFontPropo-Regular.ttf"); font-weight: normal; }
 @font-face { font-family: JetBrains; src: url("../fonts/JetBrainsMonoNerdFontPropo-SemiBold.ttf"); font-weight: bold; }
 @font-face { font-family: JetBrains; src: url("../fonts/JetBrainsMonoNerdFontPropo-Thin.ttf"); font-weight: lighter; }
+@font-face { font-family: Mononoki; src: url("../fonts/MononokiNerdFont-Regular.ttf"); font-weight: normal; }
 /** Site header */
 .site-header { border-top: 5px solid #999999; border-bottom: 1px solid #404040; min-height: 55.95px; line-height: 54px; position: relative; }
 

@@ -1,24 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
+# Things to note:
+# Server must be restarted for changes in this file to take effect
+# YAML syntax help:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 author:
+  profile_picture: "./assets/images/headshot.jpg"
   name: Anders Gilliland
   username: Lion4567714
 
@@ -35,8 +22,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ablion.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
-profile_picture: "./assets/images/headshot.jpg"
-
 markdown: kramdown
 
 # What to show on the header
@@ -44,17 +29,19 @@ header_pages:
   - index.md
   - about.md
 
-# Uncomment to show first paragraphs on post listing
-#show_excerpts: true
+# How post URLs look
+permalink: /:year/:title
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-remote-theme
 
-remote_theme: Lion4567714/lions-jekyll-theme
-#theme: lions-jekyll-theme
+# Uncomment remote_theme for production, theme for development
+#remote_theme: Lion4567714/lions-jekyll-theme
+theme: lions-jekyll-theme
 
 google_analytics: true
 
