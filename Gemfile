@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 # Uncomment when playing around theme locally, comment for production
 # Used to grab theme off rubygems.org rather than from local copy
-# gem "lions-jekyll-theme", '~> 0.1.2'
+# gem "lions-jekyll-theme", '~> 0.2.0'
 
 gem "jemoji", "~> 0.12.0"
 
