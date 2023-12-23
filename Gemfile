@@ -3,9 +3,10 @@ source "https://rubygems.org"
 # To run Jekyll, run command: `bundle exec jekyll serve`
 
 # Uncomment when playing around theme locally, comment for production
-#gem "lions-jekyll-theme", '~> 0.1.1'
-
 # Used to grab theme off rubygems.org rather than from local copy
+# gem "lions-jekyll-theme", '~> 0.1.2'
+
+gem "jemoji", "~> 0.12.0"
 
 # To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 228", group: :jekyll_plugins
@@ -14,7 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.8.0"
   gem "jekyll-include-cache", "~> 0.2.1"
-  gem 'jekyll-remote-theme', '~> 0.4.3'
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

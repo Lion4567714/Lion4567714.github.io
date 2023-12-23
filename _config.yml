@@ -34,14 +34,15 @@ permalink: /:year/:title
 
 # Build settings
 plugins:
+  - jemoji  # GitHub-style emojis
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-seo-tag # Google search optimizations
   - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-remote-theme # Downloads themes from rubygems.com rather than installing locally
 
 # Uncomment remote_theme for production, theme for development
 remote_theme: Lion4567714/lions-jekyll-theme
-#theme: lions-jekyll-theme
+# theme: lions-jekyll-theme
 
 google_analytics: true
 

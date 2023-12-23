@@ -211,7 +211,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    lions-jekyll-theme (0.1.1)
+    lions-jekyll-theme (0.1.2)
       jekyll (~> 3.9.3)
     liquid (4.0.4)
     listen (3.8.0)
@@ -288,7 +288,8 @@ DEPENDENCIES
   jekyll-include-cache (~> 0.2.1)
   jekyll-remote-theme (~> 0.4.3)
   jekyll-seo-tag (~> 2.8.0)
-  lions-jekyll-theme (~> 0.1.1)
+  jemoji (~> 0.12.0)
+  lions-jekyll-theme (~> 0.1.2)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)

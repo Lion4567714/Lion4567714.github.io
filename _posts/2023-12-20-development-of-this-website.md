@@ -4,7 +4,7 @@ title:  "Development of This Website"
 date:   2023-12-20 00:00:00 -0800
 ---
 
-This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I'm developing it, feel free to continue reading. 😉
+This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I'm developing it, feel free to continue reading. :wink:
 ## What's been done
 - [x] Set up Jekyll
   - Website is functional
@@ -13,6 +13,7 @@ This post is mostly just for me so that I can keep track of what I want to do wi
 - [x] Created basis for custom Jekyll theme
   - I'm using a custom theme which gives me complete control over how the website looks
 - [x] Better URLs (easier to read)
+- [x] Easier emojis with [emoji plugin](https://github.com/jekyll/jemoji)
 
 ## What's causing problems
 - [ ] Separate configuration for development and production environments
@@ -25,7 +26,6 @@ This post is mostly just for me so that I can keep track of what I want to do wi
 ## What needs doing
 - [ ] Website and Jekyll theme documentation
   - Good luck following along with what I'm trying to do. The comments are few and far between
-- [ ] Easier emojis with [emoji plugin](https://github.com/jekyll/jemoji)
 - [ ] "Date edited" tags on posts
   - Of the two posts that I have now, I've gone back to them on occasion to spiff them up. Sometimes it's important to know things have changed.
 - [ ] Tags on posts
