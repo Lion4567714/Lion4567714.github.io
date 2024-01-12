@@ -115,7 +115,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
 .wrapper { max-width: calc(1000px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
-@media screen and (min-width: 800px) { .wrapper { max-width: calc(1000px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
 
 /** Clearfix */
 .wrapper:after { content: ""; display: table; clear: both; }
@@ -150,7 +149,7 @@ table th { background-color: #323232; }
 
 .site-title { font-size: 1.625rem; color: #bbbbbb; font-weight: bold; padding-left: 1rem; padding-right: 1rem; padding-top: 5px; padding-bottom: 5px; float: left; transition: 0.5s ease; height: 100%; }
 
-.site-nav { position: absolute; top: 9px; right: 15px; background-color: #181818; border: 1px solid #404040; border-radius: 5px; margin-top: 5px; text-align: right; }
+.site-nav { position: absolute; z-index: 2; top: 9px; right: 15px; background-color: #181818; border: 1px solid #404040; border-radius: 5px; margin-top: 5px; text-align: right; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
 .site-nav .menu-icon > svg path { fill: #999999; }
@@ -172,27 +171,29 @@ table th { background-color: #323232; }
 
 /** Sidebar */
 .sidebar-parent .sidebar-toggle { display: none; }
-.sidebar-parent input ~ .sidebar { display: none; }
-.sidebar-parent input:checked ~ .sidebar { display: block; }
 .sidebar-parent .sidebar-toggle-box { position: absolute; top: 85px; left: 10px; z-index: 1; display: flex; align-items: center; padding: 0.25rem; border: solid 1px #404040; border-radius: 1rem; cursor: pointer; transition: ease-in-out 0.3s; }
-.sidebar-parent .sidebar-toggle-box:hover { transform: translateX(1rem); }
+.sidebar-parent .sidebar-toggle-box:hover { transform: translateX(0.5rem); }
 .sidebar-parent .sidebar-toggle-picture { width: 2.5rem; height: 2.5rem; border-radius: 50%; }
 .sidebar-parent .sidebar-toggle-icon { fill: #999999; transform: scale(1.5, 1.5); margin-left: 0.2rem; }
+.sidebar-parent input ~ .sidebar { left: -300px; }
+.sidebar-parent input:checked ~ .sidebar { left: 0px; }
+.sidebar-parent input:checked + label > .sidebar-toggle-box { width: 20rem; justify-content: end; }
+.sidebar-parent input:checked + label > .sidebar-toggle-box:hover { transform: translateX(-0.5rem); }
+.sidebar-parent input:checked + label > .sidebar-toggle-box > .sidebar-toggle-picture { transform: translateX(0.9rem); }
+.sidebar-parent input:checked + label > .sidebar-toggle-box > .sidebar-toggle-icon { transform: rotate(0.5turn) translatex(2.7rem) scale(1.5, 1.5); }
 @media all and (width >= 600px) { .sidebar-parent label[for="sidebar-toggle"] { display: none; }
   .sidebar-parent input ~ .sidebar { display: block; } }
 
 /** Site footer */
 .site-footer { border-top: 1px solid #404040; padding: 30px 0; }
 
-.footer-social-wrapper { height: 3rem; width: 30vw; min-width: 200px; display: block; margin-left: auto; margin-right: auto; }
-
-.footer-social-table { vertical-align: middle; border: none; width: 100%; height: 100%; }
+.footer-social-wrapper { height: 3rem; width: 30vw; min-width: 200px; display: flex; justify-content: space-evenly; margin-left: auto; margin-right: auto; }
 
 .footer-social-icon { height: 12vw; max-height: 30px; fill: gray; display: block; margin-left: auto; margin-right: auto; transition: ease 0.3s; }
 .footer-social-icon:hover { fill: white; transform: scale(1.2, 1.2); }
 
 /** Page content */
-.page-content { padding: 30px 0; }
+.page-content { padding-top: 1rem; padding-bottom: 1rem; }
 
 .page-heading { font-size: 2rem; }
 
@@ -238,7 +239,7 @@ table th { background-color: #323232; }
 /** My stuff */
 .flex-container { display: flex; }
 
-.sidebar { max-width: 15rem; width: auto; font-family: JetBrains; white-space: nowrap; margin-right: 2rem; }
+.sidebar { max-width: 15rem; width: auto; font-family: JetBrains; white-space: nowrap; margin-right: 2rem; transition: 0.3s linear; }
 @media all and (width < 600px) { .sidebar { position: absolute; top: 85px; left: 0px; z-index: 1; padding: 1rem; border: solid #404040; border-left: none; border-top-right-radius: 3rem; border-bottom-right-radius: 3rem; background: black; } }
 
 .profile-picture { border-radius: 50%; margin: auto; }

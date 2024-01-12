@@ -1,0 +1,17 @@
+How to download on a fresh distro:
+(For later reference when I make an official blog post about this)
+
+// From https://jekyllrb.com/docs/installation/ubuntu/ 
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+// From https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+gem install jekyll bundler
+
+bundle install
+
+bundle exec jekyll serve
