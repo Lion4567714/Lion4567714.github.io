@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Username Origins"
 date:   2024-1-12 16:10:00 -0500
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Development of This Website"
 date:   2023-12-20 00:00:00 -0800
 ---

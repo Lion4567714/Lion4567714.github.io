@@ -1,18 +1,4 @@
-# Things to note:
-# Server must be restarted for changes in this file to take effect
-# YAML syntax help:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
-author:
-  profile_picture: "./assets/images/headshot.jpg"
-  name: Anders Gilliland
-  username: Lion4567714
-
-socials:
-  - { platform: email,    preview: "lion@ablion.dev",    link: "mailto:lion@ablion.dev" }
-  - { platform: github,   preview: "lion4567714",        link: "https://github.com/Lion4567714" }
-  - { platform: linkedin, preview: "anders-gilliland",   link: "https://www.linkedin.com/in/anders-gilliland/" }
+# _config.yml
 
 title: Lion's Blog
 email: lion@ablion.dev
@@ -22,12 +8,30 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ablion.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
+author:
+  profile_picture: "./assets/images/pfp.png"
+  name: Anders Gilliland
+  username: Lion4567714
+
+socials:
+  - { platform: email,    preview: "lion@ablion.dev",    link: "mailto:lion@ablion.dev" }
+  - { platform: github,   preview: "lion4567714",        link: "https://github.com/Lion4567714" }
+  - { platform: linkedin, preview: "anders-gilliland",   link: "https://www.linkedin.com/in/anders-gilliland/" }
+
+defaults:
+  -
+    scope:
+      path: "./_posts"
+    values:
+      layout: "post"
+
 markdown: kramdown
 
 # What to show on the header
 header_pages:
   - index.md
   - about.md
+  - braindump.md
 
 # How post URLs look
 permalink: /:year/:title
@@ -38,11 +42,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag # Google search optimizations
   - jekyll-include-cache
-  - jekyll-remote-theme # Downloads themes from rubygems.com rather than installing locally
-
-# Uncomment remote_theme for production, theme for development
-remote_theme: Lion4567714/lions-jekyll-theme
-# theme: lions-jekyll-theme
 
 google_analytics: true
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "What This Site is Made Of"
 date:   2023-12-16 15:00:00 -0800
 ---

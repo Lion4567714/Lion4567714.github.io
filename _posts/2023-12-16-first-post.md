@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "First Post and Website Project Goals"
 date:   2023-12-16 12:20:00 -0800
 ---

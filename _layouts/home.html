@@ -1,0 +1,55 @@
+---
+layout: base
+---
+
+<div class="home flex-container wrapper page-content">
+    <div class="wrapper">
+        <div class="sidebar-parent">
+            <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle" />
+            <label for="sidebar-toggle">
+                <div class="sidebar-toggle-box">
+                    <img class="sidebar-toggle-picture" src="{{ site.author.profile_picture }}" />
+                    <span class="sidebar-toggle-icon menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                    </span>
+                </div>
+            </label>
+
+            {%- include sidebar.html -%}
+        </div>  
+    </div>
+    <div class="wrapper">
+        {{ content }}
+
+        {%- assign posts = site.posts -%}
+    
+        {%- if posts.size > 0 -%}
+            {%- if page.list_title -%}
+                <h2 class="post-list-heading">{{ page.list_title }}</h2>
+            {%- endif -%}
+    
+            <ol class="post-list">
+                {%- assign date_format = "%b %-d, %Y" -%}
+                {%- for post in posts -%}
+                    <li>
+                        <span class="post-meta">{{ post.date | date: date_format }}</span>
+                        <h3>
+                            <a class="post-link" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h3>
+                        <ol class="post-tag-list">
+                        {% for tag in post.tags %}
+                            <li class="post-tag">{{ tag }}</li>
+                        {% endfor %}
+                        </ol>
+                    </li>
+                {%- endfor -%}
+            </ol>
+        {%- endif -%}
+
+        {% for tag in site.tags %}
+            <h3>{{ tag[0] }}</h3>
+        {% endfor %}
+    </div>
+</div>
