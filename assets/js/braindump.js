@@ -11,11 +11,47 @@ const my_list = document.getElementById("my_list");
 const save_button = document.getElementById("save_button");
 const load_button = document.getElementById("load_button");
 
-// save_button.addEventListener("click", function() {
-//     let file = 
-//     let temp = document.createAttribute("a");
-//     temp.download = 
-// })
+load_button.addEventListener("click", function() {
+    let temp = document.createElement("input");
+    temp.type = "file";
+    temp.accept = "application/json";
+
+    temp.addEventListener("change", function(event) {
+        let file = event.target.files[0];
+        let reader = new FileReader();
+
+        reader.onload = function(e) {
+            const contents = e.target.result;
+            
+            for (item of list_content["elements"]) {
+                const name = item["name"];
+                remove_from_storage(name);
+                remove_from_page(name);
+            }
+            
+            const temp_list_content = JSON.parse(contents);
+            for (item of temp_list_content["elements"]) {
+                const name = item["name"];
+                add_to_storage(name);
+                add_to_page(name);
+            }
+        }
+        reader.readAsText(file, "utf-8");
+    });
+
+    document.body.appendChild(temp);
+    temp.click();
+    document.body.removeChild(temp);
+});
+
+save_button.addEventListener("click", function() {
+    let temp = document.createElement("a");
+    temp.href = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(list_content));
+    temp.download = "braindump.json";
+    document.body.appendChild(temp);
+    temp.click();
+    document.body.removeChild(temp);
+});
 
 my_button.addEventListener("click", function() {
     const input_value = my_input.value;
