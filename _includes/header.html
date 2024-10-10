@@ -27,6 +27,9 @@
                                 {%- endif -%}
                             </td>
                         {%- endfor -%}
+                        <td>
+                            <button id="mode_button">Switch Mode</button>
+                        </td>
                     </tr>
                 </table>
 
@@ -45,4 +48,6 @@
             </nav>
         {%- endif -%}
     </div>
+
+    <script src="{{ base.url | prepend: site.url }}/assets/js/header.js"></script>
 </header>

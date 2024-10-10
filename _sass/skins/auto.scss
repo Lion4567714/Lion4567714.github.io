@@ -1,15 +1,13 @@
-@charset "utf-8";
+// @charset "utf-8";
 
-// Default color scheme settings
-// These are overridden in classic.css and dark.scss
+// See for syntax highlighting: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
 
 $color-scheme-auto: true !default;
 $color-scheme-dark: false !default;
 
 
-// Light mode
+// Light mode settings
 // ----------
-
 $lm-brand-color:           #828282 !default;
 $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
 $lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
@@ -35,9 +33,8 @@ $lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
 $lm-table-border-color:    $lm-border-color-01 !default;
 
 
-// Dark mode
-// ---------
-
+// Dark mode settings
+// ----------
 $dm-brand-color:           #999999 !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
 $dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
@@ -63,21 +60,10 @@ $dm-table-header-border:   lighten($dm-background-color, 21%) !default;
 $dm-table-border-color:    $dm-border-color-01 !default;
 
 
-// Syntax highlighting styles should be adjusted appropriately for every "skin"
-// List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
-// Some colors come from Material Theme Darker:
-// https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/settings/specific/darker-hc.ts
-// https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/color-set.ts
-// ----------------------------------------------------------------------------
-
-
 // Mode selection
-// --------------
-
-
-// Classic skin (always light mode)
+// ----------
+// Light mode by default
 // Assign outside of the if construct to establish global variable scope
-
 $brand-color: $lm-brand-color;
 $brand-color-light: $lm-brand-color-light;
 $brand-color-dark: $lm-brand-color-dark;
@@ -104,10 +90,9 @@ $table-border-color: $lm-table-border-color;
 
 
 @if $color-scheme-auto {
-
   // Auto mode
-
   :root {
+	// Light by default
     --brand-color: #{$lm-brand-color};
     --brand-color-light: #{$lm-brand-color-light};
     --brand-color-dark: #{$lm-brand-color-dark};
@@ -135,6 +120,7 @@ $table-border-color: $lm-table-border-color;
 
   @media (prefers-color-scheme: dark) {
     :root {
+	  // Dark mode if user's OS is in dark mode
       --brand-color: #{$dm-brand-color};
       --brand-color-light: #{$dm-brand-color-light};
       --brand-color-dark: #{$dm-brand-color-dark};
@@ -161,6 +147,7 @@ $table-border-color: $lm-table-border-color;
     }
   }
 
+  // Assign
   $brand-color: var(--brand-color);
   $brand-color-light: var(--brand-color-light);
   $brand-color-dark: var(--brand-color-dark);
@@ -187,9 +174,7 @@ $table-border-color: $lm-table-border-color;
 
 
 } @else if $color-scheme-dark {
-
-  // Dark skin (always dark mode)
-
+  // Dark mode
   $brand-color: $dm-brand-color;
   $brand-color-light: $dm-brand-color-light;
   $brand-color-dark: $dm-brand-color-dark;

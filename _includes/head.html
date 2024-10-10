@@ -5,7 +5,9 @@
 
     {%- seo -%}
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <!-- <link id="style" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
+    <link id="style" rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link id="style2" rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
 
     {%- feed_meta -%}
 

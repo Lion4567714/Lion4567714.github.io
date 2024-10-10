@@ -1,6 +1,7 @@
 ---
 ---
 
-@import
-  "skins/{{ site.skin | default: 'dark' }}",
-  "initialize";
+@charset "utf-8";
+
+@import "skins/{{ site.skin | default: 'auto' }}";
+@import "initialize";
