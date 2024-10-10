@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-10T13:39:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lion’s Blog</title><subtitle>Blog + A place I play with fun web dev things. Still in the works, obviously.</subtitle><author><name>Anders Gilliland</name></author><entry><title type="html">Introducing Tags</title><link href="http://localhost:4000/introducing-tags" rel="alternate" type="text/html" title="Introducing Tags" /><published>2024-09-28T04:00:00-04:00</published><updated>2024-09-28T04:00:00-04:00</updated><id>http://localhost:4000/tags</id><content type="html" xml:base="http://localhost:4000/introducing-tags">&lt;p&gt;This is my first post in a long time, now introducting tags!&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><category term="BIG" /><category term="small" /><category term="Mixed" /><summary type="html">This is my first post in a long time, now introducting tags!</summary></entry><entry><title type="html">Username Origins</title><link href="http://localhost:4000/2024/username-origins" rel="alternate" type="text/html" title="Username Origins" /><published>2024-01-12T16:10:00-05:00</published><updated>2024-01-12T16:10:00-05:00</updated><id>http://localhost:4000/2024/username-origins</id><content type="html" xml:base="http://localhost:4000/2024/username-origins">&lt;p&gt;Enough people have asked me about my username now that I might as well make a post about it. It is, after all, pretty unconventional.&lt;/p&gt;
+
+&lt;p&gt;The origins for these kinds of things are usually a special little story for everyone. I encourage you to go around asking your friends how they came to name themselves on the internet. Somehow my name has a page-and-a-half of backstory to it.&lt;/p&gt;
+
+&lt;p&gt;In case you didn’t run across it earlier, the username I go with on the internet is &lt;em&gt;Lion4567714&lt;/em&gt;. :wave: Hi.&lt;/p&gt;
+
+&lt;h3 id=&quot;fight-my-monster&quot;&gt;Fight My Monster&lt;/h3&gt;
+
+&lt;p&gt;I first became interested in video games by watching my mom play solitaire on our old cabinet computer. Sometime after that, I discovered the existence of online flash games, and I eventually came across this little website called Fight My Monster. How? No clue. Big mystery.&lt;/p&gt;
+
+&lt;p&gt;Anyway, Fight My Monster was a web game where you could collect Monsters. Each monster has some stats, and you could train and battle them against other player’s monsters to make them stronger. Pokemon-style, if you like.&lt;/p&gt;
+
+&lt;p&gt;The outcome of each battle was determined purely by random chance, but if your monster was stronger than your opponent’s, your chance of winning was greater (but never quite 100%…). There was a big spinner that determined what happened. If you won, I believe you had the choice of gaining xp for your monster or capturing or killing your opponent’s monster.&lt;/p&gt;
+
+&lt;p&gt;I trained my monster up for some time. I had other monsters, but there was one that was bigger and stronger than the rest and was very special to me as a little kid. It might have been the first monster I was given. Don’t get me wrong, my best monster was nowhere near the best in the world, but it was still significantly strong.&lt;/p&gt;
+
+&lt;h3 id=&quot;tragedy&quot;&gt;Tragedy&lt;/h3&gt;
+
+&lt;p&gt;One day tragedy struck. I was fighting my main monster with some other much weaker monster. I finally got unlucky and lost (with a 98%+ chance of winning, mind you), and I got my best monster captured. The worst part was that I knew this other monster was just some garbage someone threw out there to test the waters against bigger monsters. They took a stupid gamble and I lost. Couldn’t bring myself to play the game again.&lt;/p&gt;
+
+&lt;p&gt;Perhaps this is also the origin story for why I prefer skill-based games and why I’m a bit of a sore loser… :thinking:&lt;/p&gt;
+
+&lt;h3 id=&quot;huh-oh-right-my-username&quot;&gt;Huh? Oh right, my username&lt;/h3&gt;
+
+&lt;p&gt;I’m horrible at naming things now, and I was horrible at naming things back then too. I tried to come up with ideas like some of my favorite things. Can you guess what my favorite animal was?&lt;/p&gt;
+
+&lt;p&gt;Obviously that name was taken, so the website gave me some alternatives. Somehow it came up with “Lion4567714” as the next logical choice after “Lion”. Cool.&lt;/p&gt;
+
+&lt;p&gt;So here I am. Name never changed. I’ll use just “Lion” when I can, but numbers give me the added benefit of having no username registry with my name taken before I get there!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-about-fight-my-monster-ever-go-back&quot;&gt;What about Fight My Monster? Ever go back?&lt;/h3&gt;
+
+&lt;p&gt;Nope. Unfortunately, the game disappeared off the face of the internet since then. Of all of this, that’s the real tragedy. Apparently there’s still a &lt;a href=&quot;https://www.reddit.com/r/fightmymonster/&quot;&gt;subreddit dedicated in its memory&lt;/a&gt;, but that is about it.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;(First post of the new year! Wooo!)&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">Enough people have asked me about my username now that I might as well make a post about it. It is, after all, pretty unconventional.</summary></entry><entry><title type="html">Development of This Website</title><link href="http://localhost:4000/2023/development-of-this-website" rel="alternate" type="text/html" title="Development of This Website" /><published>2023-12-20T03:00:00-05:00</published><updated>2023-12-20T03:00:00-05:00</updated><id>http://localhost:4000/2023/development-of-this-website</id><content type="html" xml:base="http://localhost:4000/2023/development-of-this-website">&lt;p&gt;This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I’m developing it, feel free to continue reading. :wink:&lt;/p&gt;
+&lt;h2 id=&quot;whats-been-done&quot;&gt;What’s been done&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Set up Jekyll
+    &lt;ul&gt;
+      &lt;li&gt;Website is functional&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Publish website
+    &lt;ul&gt;
+      &lt;li&gt;It’s available to everyone! Yay!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Created basis for custom Jekyll theme
+    &lt;ul&gt;
+      &lt;li&gt;I’m using a custom theme which gives me complete control over how the website looks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Better URLs (easier to read)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Easier emojis with &lt;a href=&quot;https://github.com/jekyll/jemoji&quot;&gt;emoji plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-causing-problems&quot;&gt;What’s causing problems&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Separate configuration for development and production environments
+    &lt;ul&gt;
+      &lt;li&gt;With the current setup, I have to remember to fix the configuration files every time I update the website. This might involve customizing the building of the website on GitHub’s end. Which will be interesting to say the least.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Mobile support
+    &lt;ul&gt;
+      &lt;li&gt;“But the website looks great on my monitor!” -every web developer ever. Half of the people I asked to view my website used their phone.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Finding a good, readable font
+    &lt;ul&gt;
+      &lt;li&gt;While &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt; is awesome, their fonts are designed for nerds and their terminals. Which means not awesome for plain reading. I need to strike a balance between cool looking and legible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-needs-doing&quot;&gt;What needs doing&lt;/h2&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Website and Jekyll theme documentation
+    &lt;ul&gt;
+      &lt;li&gt;Good luck following along with what I’m trying to do. The comments are few and far between&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;“Date edited” tags on posts
+    &lt;ul&gt;
+      &lt;li&gt;Of the two posts that I have now, I’ve gone back to them on occasion to spiff them up. Sometimes it’s important to know things have changed.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Tags on posts
+    &lt;ul&gt;
+      &lt;li&gt;Helps organize things&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Sortings ports
+    &lt;ul&gt;
+      &lt;li&gt;By tag, title, date, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">This post is mostly just for me so that I can keep track of what I want to do with this project. But if you are interested in how the project is going and what I have to think about as I’m developing it, feel free to continue reading. :wink: What’s been done Set up Jekyll Website is functional Publish website It’s available to everyone! Yay! Created basis for custom Jekyll theme I’m using a custom theme which gives me complete control over how the website looks Better URLs (easier to read) Easier emojis with emoji plugin</summary></entry><entry><title type="html">What This Site is Made Of</title><link href="http://localhost:4000/2023/what-this-site-is-made-of" rel="alternate" type="text/html" title="What This Site is Made Of" /><published>2023-12-16T18:00:00-05:00</published><updated>2023-12-16T18:00:00-05:00</updated><id>http://localhost:4000/2023/what-this-site-is-made-of</id><content type="html" xml:base="http://localhost:4000/2023/what-this-site-is-made-of">&lt;h2 id=&quot;guides&quot;&gt;Guides&lt;/h2&gt;
+
+&lt;p&gt;Sites that have helped me a lot over the course of this project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/&quot;&gt;Mozilla Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;languages-and-how-theyre-used&quot;&gt;Languages and How They’re Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby: package manager via gemfile&lt;/li&gt;
+  &lt;li&gt;Jekyll: brains of the operation&lt;/li&gt;
+  &lt;li&gt;YAML: configuration files&lt;/li&gt;
+  &lt;li&gt;SASS: style&lt;/li&gt;
+  &lt;li&gt;HTML: page structure&lt;/li&gt;
+  &lt;li&gt;Markdown: page contents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;Theme framework (modified by me):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;Minima&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fonts (courtesy of &lt;a href=&quot;https://www.nerdfonts.com/&quot;&gt;Nerd Fonts&lt;/a&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;JetBrains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nerdfonts.com/font-downloads&quot;&gt;Mononoki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SVG files:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">Guides</summary></entry><entry><title type="html">First Post and Website Project Goals</title><link href="http://localhost:4000/2023/first-post" rel="alternate" type="text/html" title="First Post and Website Project Goals" /><published>2023-12-16T15:20:00-05:00</published><updated>2023-12-16T15:20:00-05:00</updated><id>http://localhost:4000/2023/first-post</id><content type="html" xml:base="http://localhost:4000/2023/first-post">&lt;p&gt;Hello! :wave: This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-am-i-here&quot;&gt;Why am I here?&lt;/h3&gt;
+
+&lt;p&gt;I dunno. You tell me. I’m surprised you even found this in the first place. &lt;a href=&quot;mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!&quot;&gt;Come say hi&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;why-are-you-making-this-website&quot;&gt;Why are you making this website?&lt;/h3&gt;
+
+&lt;p&gt;I like doing side projects, and having a website seemed pretty cool to me, so here we are.&lt;/p&gt;
+
+&lt;p&gt;I had a website before this one that I made using React, Typescript, and TailwindCSS. I was inspired by the website of a good friend of mine &lt;a href=&quot;https://www.loophole.engineer/&quot;&gt;here&lt;/a&gt;. He’s a serious web developer; I recommend checking his stuff out. Anyway, long story short, it ended up being a bigger project than I wanted or had time for. So…&lt;/p&gt;
+
+&lt;p&gt;Here I am with a &lt;em&gt;new&lt;/em&gt; website made through GitHub Pages and Jekyll. From the little I have done in the past couple days, it seems much easier to handle and it just looks good right off the bat.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-your-plans-for-this-site&quot;&gt;What are your plans for this site?&lt;/h3&gt;
+
+&lt;p&gt;Primarily to learn and have fun. Secondarily, to post about the things I learn in a fun format. I would like this website to have more content and be better updated than my previous website project.&lt;/p&gt;
+
+&lt;p&gt;I think this website would also be a good place to post coding cheat sheets to refer back to in the future. I currently have a &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&quot;&gt;GitHub markdown language cheat sheet&lt;/a&gt; up as I’m writing this.&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Thanks to anyone who came by to visit. Feel free to &lt;a href=&quot;mailto:lion@ablion.dev?subject=ablion.dev,%20Hello!&quot;&gt;contact me&lt;/a&gt; and say hi. Hopefully this website stays relatively updated… :sweat_smile:&lt;/p&gt;</content><author><name>Anders Gilliland</name></author><summary type="html">Hello! :wave: This is a brand-new website I’m cooking up during winter break this year. This post is just to outline what I’m doing here and what I plan for the future of this website.</summary></entry></feed>
