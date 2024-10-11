@@ -3,5 +3,5 @@
 
 @charset "utf-8";
 
-@import "skins/{{ site.skin | default: 'auto' }}";
+@import "theme";
 @import "initialize";
