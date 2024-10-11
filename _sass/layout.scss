@@ -81,6 +81,7 @@
     color: $text-color;
     text-align: right;
     // line-height: $base-line-height;
+    // vertical-align: top;
     display: block;
     padding: 5px 10px;
 
@@ -502,6 +503,7 @@
   margin: 0.5em;
   padding: 0.5em;
   font-weight: bold;
+  font-family: JetBrains;
   
   &:hover {
     background: rgb(50, 50, 50);
@@ -568,4 +570,15 @@
   color: black;
   font-style: bold;
   padding: 1em;
+}
+
+.mode-button {
+  background: transparent;
+  border: none;
+  padding: 0.5em;
+}
+
+.mode-icon  {
+  height: 1.5em;
+  fill: $text-color
 }

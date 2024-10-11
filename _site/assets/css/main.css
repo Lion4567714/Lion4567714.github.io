@@ -205,7 +205,7 @@ table th { background-color: var(--table-header-bg-color); }
 
 .list-box { background: var(--code-background-color); border-radius: 1em; padding: 0.5em; }
 
-.list-box-item { transition: 200ms ease; background: #3f3f3f; border-radius: 0.25em; margin: 0.5em; padding: 0.5em; font-weight: bold; }
+.list-box-item { transition: 200ms ease; background: #3f3f3f; border-radius: 0.25em; margin: 0.5em; padding: 0.5em; font-weight: bold; font-family: JetBrains; }
 .list-box-item:hover { background: #323232; transform: scale(1.05, 1.05); }
 
 .list-postfix { background: var(--code-background-color); border-radius: 1em; display: flex; justify-content: center; }
@@ -222,3 +222,7 @@ table th { background-color: var(--table-header-bg-color); }
 .construction-icon { height: 1em; }
 
 .construction-text { color: black; font-style: bold; padding: 1em; }
+
+.mode-button { background: transparent; border: none; padding: 0.5em; }
+
+.mode-icon { height: 1.5em; fill: var(--text-color); }
