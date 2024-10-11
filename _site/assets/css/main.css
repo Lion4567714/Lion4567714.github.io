@@ -216,3 +216,9 @@ table th { background-color: var(--table-header-bg-color); }
 .list-button { width: 20%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; background-color: var(--background-color); color: white; font-weight: bold; }
 
 .document-button { width: 40%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; color: white; font-weight: bold; }
+
+.construction-bar { height: auto; display: flex; align-items: center; justify-content: center; background: yellow; }
+
+.construction-icon { height: 1em; }
+
+.construction-text { color: black; font-style: bold; padding: 1em; }

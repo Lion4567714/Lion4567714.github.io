@@ -551,3 +551,21 @@
   color: white;
   font-weight: bold;
 }
+
+.construction-bar {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: yellow;
+}
+
+.construction-icon {
+  height: 1em;
+}
+
+.construction-text {
+  color: black;
+  font-style: bold;
+  padding: 1em;
+}
