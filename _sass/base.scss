@@ -1,6 +1,10 @@
+* {
+  transition: $transition;
+}
+
 html {
-    font-size: $base-font-size;
-  }
+  font-size: $base-font-size;
+}
   
   /**
    * Reset some basic elements
@@ -32,9 +36,7 @@ html {
     min-height: 100vh;
     flex-direction: column;
     overflow-wrap: break-word;
-
-    // transition: ease-in-out 0.3s;
-  }
+}
   
   
   
@@ -116,7 +118,6 @@ html {
   a:not(.header-link) {
     text-decoration: none;
     color: $link-base-color;
-    transition: 0.5s;
   
     &:visited {
       color: $link-visited-color;

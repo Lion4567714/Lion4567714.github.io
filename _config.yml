@@ -43,6 +43,9 @@ plugins:
   - jekyll-seo-tag # Google search optimizations
   - jekyll-include-cache
 
+feed:
+  disable_in_development: true
+
 google_analytics: true
 
 # Exclude from processing.

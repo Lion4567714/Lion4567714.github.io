@@ -1,0 +1,127 @@
+.sidebar-parent {
+    .sidebar-toggle {
+      display: none;
+    }
+  
+    .sidebar-toggle-box {
+      position: absolute;
+      top: 85px;
+      left: 10px;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      padding: 0.25rem;
+      border: solid 1px $border-color-01;
+      border-radius: 1rem;
+      cursor: pointer;
+  
+      &:hover {
+        transform: translateX(0.5rem);
+      }
+    }
+  
+    .sidebar-toggle-picture {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+    }
+  
+    .sidebar-toggle-icon {
+      fill: $border-color-03;
+      transform: scale(1.5, 1.5);
+      margin-left: 0.2rem;
+    }
+  
+    input {
+      ~ .sidebar {
+        left: -300px;
+      }
+  
+      &:checked {
+        ~ .sidebar {
+          left: 0px;
+        }
+  
+        + label > .sidebar-toggle-box {
+          width: 20rem;
+          justify-content: end;
+  
+          &:hover {
+            transform: translateX(-0.5rem);
+          }
+  
+          > .sidebar-toggle-picture {
+            transform: translateX(0.9rem);
+          }
+  
+          > .sidebar-toggle-icon {
+            transform: rotate(0.5turn) translatex(2.7rem) scale(1.5, 1.5);
+          }
+        }
+      }
+    }
+  
+    @media all and (width >= $on-medium) {
+      label[for="sidebar-toggle"] {
+        display: none;
+      }
+  
+      input ~ .sidebar {
+        display: block;
+      }
+    }
+}
+
+.sidebar {
+	max-width: 15rem;
+	width: auto;
+	font-family: JetBrains;
+	white-space: nowrap;
+	margin-right: 2rem;
+	transition: 0.3s linear;
+  
+	@media all and (width < $on-medium) {
+	  position: absolute;
+	  top: 85px;
+	  left: 0px;
+	  z-index: 1;
+	  padding: 1rem;
+	  border: solid $border-color-01;
+	  border-left: none;
+	  border-top-right-radius: 3rem;
+	  border-bottom-right-radius: 3rem;
+	  background: black;
+	}
+  }
+  
+  .profile-picture {
+	border-radius: 50%;
+	margin: auto;
+  }
+  
+  .profile-name {
+	font-weight: bold;
+	@include relative-font-size(1.5);
+  }
+  
+  .profile-username {
+	font-weight: lighter;
+	color: grey;
+	@include relative-font-size(1.2);
+  }
+  
+  .profile-table {
+	vertical-align: middle;
+	border: none;
+  }
+  
+  .profile-icon {
+	fill: white;
+	// filter: invert(100%);
+	// vertical-align: middle;
+  }
+  
+  .profile-link {
+	font-weight: lighter;
+	margin-left: 0.33rem;
+  }
