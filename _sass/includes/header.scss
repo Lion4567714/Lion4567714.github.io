@@ -83,8 +83,8 @@
     font-family: JetBrains;
   
     &:hover {
-        color: black;
-        background-color: white;
+        color: $background-color;
+        background-color: $text-color;
     }
 }
 

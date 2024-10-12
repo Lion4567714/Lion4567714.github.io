@@ -14,4 +14,8 @@
     {%- if site.google_analytics -%}
         {%- include analytics.html -%}
     {%- endif -%}
+
+    {%- if jekyll.environment != "production" -%}
+        <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    {%- endif -%}
 </head>

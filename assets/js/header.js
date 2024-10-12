@@ -8,7 +8,19 @@ mode_button.addEventListener("click", function() {
 
     if (document.body.classList.contains("dark")) {
         mode_button.innerHTML = light_mode_icon;
+        localStorage.setItem("dark", "true");
     } else {
         mode_button.innerHTML = dark_mode_icon;
+        localStorage.setItem("dark", "false");
     }
 });
+
+if (localStorage.getItem("dark") != null) {
+    if (localStorage.getItem("dark") == "true" && !document.body.classList.contains("dark")) {
+        document.body.classList.add("dark");
+        mode_button.innerHTML = light_mode_icon;
+    } else if (localStorage.getItem("dark") == "false" && document.body.classList.contains("dark")) {
+        document.body.classList.remove("dark");
+        mode_button.innerHTML = dark_mode_icon;
+    }
+}
