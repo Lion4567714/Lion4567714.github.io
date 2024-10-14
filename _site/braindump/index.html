@@ -70,23 +70,39 @@
         </span>    
 
         <div class="wrapper page-content">
-            <div>
-    <h1>This is the braindump page!</h1>
-    <div class="list-box">
-        <ol id="my_list" style="margin: 0; list-style: none"></ol>
-    </div>
-    <div style="height: 1em"></div>
-    <div class="list-postfix">
-        <input id="my_input" class="list-input" type="text" size="22" placeholder="Type here!" />
-        <button id="my_button" class="list-button">ADD</button>
-    </div>
-    <div style="height: 1em"></div>
-    <div class="list-postfix">
-        <button id="save_button" class="document-button">SAVE</button>
-        <button id="load_button" class="document-button">LOAD</button>
-    </div>
+            <div class="column-parent">
+    <div class="left-column">
+        <h1 id="braindump">Braindump</h1>
+<h2 id="what-is-this">What is this?</h2>
+<p>See my post about it <a href="../what-is-a-braindump">here</a>!</p>
 
-    <script src="http://localhost:4000/assets/js/braindump.js"></script>
+<h2 id="how-to-use">How to use</h2>
+<ol>
+  <li><em>(Optional)</em> Press LOAD to upload a braindump from your computer.</li>
+  <li>Type in your tasks and stressors in the box given.</li>
+  <li>Press enter or the ADD button to add an item to the list.</li>
+  <li>When you finish your work, click the cooresponding item or type the name of the item prepended with an en dash “-“ to remove the item from the list.</li>
+  <li><em>(Optional)</em> Save your braindump by clicking the SAVE button.</li>
+</ol>
+
+    </div>
+    <div class="right-column">
+        <div class="list-postfix">
+            <input id="my_input" class="list-input" type="text" size="22" placeholder="Type here!" />
+            <button id="my_button" class="list-button">ADD</button>
+        </div>
+        <div style="height: 1em"></div>
+        <div class="list-postfix">
+            <button id="save_button" class="document-button">SAVE</button>
+            <button id="load_button" class="document-button">LOAD</button>
+        </div>
+        <div style="height: 1em"></div>
+        <div class="list-box hide">
+            <ol id="my_list" style="margin: 0; list-style: none"></ol>
+        </div>
+
+        <script src="http://localhost:4000/assets/js/braindump.js"></script>
+    </div>
 </div>
 
         </div><footer class="site-footer h-card">

@@ -2,21 +2,25 @@
 layout: base
 ---
 
-<div>
-    <h1>This is the braindump page!</h1>
-    <div class="list-box">
-        <ol id="my_list" style="margin: 0; list-style: none"></ol>
+<div class="column-parent">
+    <div class="left-column">
+        {{ content }}
     </div>
-    <div style="height: 1em"></div>
-    <div class="list-postfix">
-        <input id="my_input" class="list-input" type="text" size="22" placeholder="Type here!" />
-        <button id="my_button" class="list-button">ADD</button>
-    </div>
-    <div style="height: 1em"></div>
-    <div class="list-postfix">
-        <button id="save_button" class="document-button">SAVE</button>
-        <button id="load_button" class="document-button">LOAD</button>
-    </div>
+    <div class="right-column">
+        <div class="list-postfix">
+            <input id="my_input" class="list-input" type="text" size="22" placeholder="Type here!" />
+            <button id="my_button" class="list-button">ADD</button>
+        </div>
+        <div style="height: 1em"></div>
+        <div class="list-postfix">
+            <button id="save_button" class="document-button">SAVE</button>
+            <button id="load_button" class="document-button">LOAD</button>
+        </div>
+        <div style="height: 1em"></div>
+        <div class="list-box hide">
+            <ol id="my_list" style="margin: 0; list-style: none"></ol>
+        </div>
 
-    <script src="{{ base.url | prepend: site.url }}/assets/js/braindump.js"></script>
+        <script src="{{ base.url | prepend: site.url }}/assets/js/braindump.js"></script>
+    </div>
 </div>

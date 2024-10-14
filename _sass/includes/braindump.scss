@@ -5,7 +5,7 @@
   }
   
   .list-box-item {
-    background-color: $background-color;
+    background: $background-color;
     border-radius: 0.25em;
     margin: 0.5em;
     border: solid 0.1em $border-color-01;
@@ -14,7 +14,8 @@
     font-family: JetBrains;
     
     &:hover {
-      background: rgb(50, 50, 50);
+      background: $text-color;
+      color: $background-color;
       transform: scale(1.05, 1.05);
     }
   }
@@ -46,9 +47,19 @@
     border: 0.25em solid rgb(63, 63, 63);
     border-radius: 1em;
     padding: 0.25em;
-    background-color: $background-color;
+    background: $background-color;
     color: $text-color;
     font-weight: bold;
+
+    &:hover {
+      background: $text-color;
+      color: $background-color;
+    }
+
+    &:active {
+      background: $background-color;
+      color: $text-color;
+    }
   }
   
   .document-button {
@@ -57,7 +68,17 @@
     border: 0.25em solid rgb(63, 63, 63);
     border-radius: 1em;
     padding: 0.25em;
-    background-color: $background-color;
+    background: $background-color;
     color: $text-color;
     font-weight: bold;
+
+    &:hover {
+      background: $text-color;
+      color: $background-color;
+    }
+
+    &:active {
+      background: $background-color;
+      color: $text-color;
+    }
 }   

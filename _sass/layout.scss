@@ -199,3 +199,24 @@
   font-style: bold;
   padding: 1em;
 }
+
+.column-parent {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
+.left-column {
+  width: 25vw;
+  padding-right: 2em;
+  border-right: 1px solid $border-color-01
+}
+
+.right-column {
+  width: 40vw;
+  padding-left: 2em;
+}
+
+.hide {
+  display: none;
+}

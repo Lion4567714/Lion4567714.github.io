@@ -95,15 +95,26 @@ function add_to_page(name) {
     new_item.addEventListener("click", function() {
         remove_from_storage(name);
         new_item.remove();
+
+        if (!my_list.firstChild) {
+            my_list.parentElement.classList.add("hide");
+        }
     });
 
     my_list.appendChild(new_item);
+    if (my_list.parentElement.classList.contains("hide")) {
+        my_list.parentElement.classList.remove("hide");
+    }
 }
 
 function remove_from_page(name) {
     const xpath = `//li[contains(text(), "${name}")]`;
     const element = document.evaluate(xpath, my_list, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-    element.singleNodeValue.remove();
+    element.singleNodeValue.parentElement.remove();
+
+    if (!my_list.firstChild) {
+        my_list.parentElement.classList.add("hide");
+    }
 }
 
 window.onload = function() {

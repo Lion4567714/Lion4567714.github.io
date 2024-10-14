@@ -92,17 +92,21 @@ table th { background-color: var(--table-header-bg-color); }
 @font-face { font-family: Mononoki; src: url("../fonts/MononokiNerdFont-Regular.ttf"); font-weight: normal; }
 .list-box { background: var(--code-background-color); border-radius: 1em; padding: 0.5em; }
 
-.list-box-item { background-color: var(--background-color); border-radius: 0.25em; margin: 0.5em; border: solid 0.1em var(--border-color-01); padding: 0.5em; font-weight: bold; font-family: JetBrains; }
-.list-box-item:hover { background: #323232; transform: scale(1.05, 1.05); }
+.list-box-item { background: var(--background-color); border-radius: 0.25em; margin: 0.5em; border: solid 0.1em var(--border-color-01); padding: 0.5em; font-weight: bold; font-family: JetBrains; }
+.list-box-item:hover { background: var(--text-color); color: var(--background-color); transform: scale(1.05, 1.05); }
 
 .list-postfix { background: var(--code-background-color); border-radius: 1em; display: flex; justify-content: center; }
 
 .list-input { width: 60%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; padding-left: 1em; }
 .list-input:focus { outline: none; }
 
-.list-button { width: 20%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; background-color: var(--background-color); color: var(--text-color); font-weight: bold; }
+.list-button { width: 20%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; background: var(--background-color); color: var(--text-color); font-weight: bold; }
+.list-button:hover { background: var(--text-color); color: var(--background-color); }
+.list-button:active { background: var(--background-color); color: var(--text-color); }
 
-.document-button { width: 40%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; background-color: var(--background-color); color: var(--text-color); font-weight: bold; }
+.document-button { width: 40%; margin: 0.5em; border: 0.25em solid #3f3f3f; border-radius: 1em; padding: 0.25em; background: var(--background-color); color: var(--text-color); font-weight: bold; }
+.document-button:hover { background: var(--text-color); color: var(--background-color); }
+.document-button:active { background: var(--background-color); color: var(--text-color); }
 
 .site-footer { border-top: 1px solid var(--border-color-01); padding: 30px 0; }
 
@@ -220,3 +224,11 @@ table th { background-color: var(--table-header-bg-color); }
 .construction-icon { height: 1em; }
 
 .construction-text { color: black; font-style: bold; padding: 1em; }
+
+.column-parent { width: 70vw; display: flex; justify-content: center; }
+
+.left-column { width: 25vw; padding-right: 2em; border-right: 1px solid var(--border-color-01); }
+
+.right-column { width: 40vw; padding-left: 2em; }
+
+.hide { display: none; }
