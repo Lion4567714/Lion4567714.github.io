@@ -201,19 +201,17 @@
 }
 
 .column-parent {
-  width: 70vw;
   display: flex;
-  justify-content: center;
 }
 
 .left-column {
-  width: 25vw;
+  width: 50%;
   padding-right: 2em;
   border-right: 1px solid $border-color-01
 }
 
 .right-column {
-  width: 40vw;
+  width: 50%;
   padding-left: 2em;
 }
 

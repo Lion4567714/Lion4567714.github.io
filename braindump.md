@@ -4,7 +4,7 @@ title: Braindump
 permalink: /braindump/
 ---
 
-# Braindump
+# > Braindump <
 ## What is this?
 See my post about it [here](../what-is-a-braindump)!
 

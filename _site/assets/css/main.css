@@ -225,10 +225,10 @@ table th { background-color: var(--table-header-bg-color); }
 
 .construction-text { color: black; font-style: bold; padding: 1em; }
 
-.column-parent { width: 70vw; display: flex; justify-content: center; }
+.column-parent { display: flex; }
 
-.left-column { width: 25vw; padding-right: 2em; border-right: 1px solid var(--border-color-01); }
+.left-column { width: 50%; padding-right: 2em; border-right: 1px solid var(--border-color-01); }
 
-.right-column { width: 40vw; padding-left: 2em; }
+.right-column { width: 50%; padding-left: 2em; }
 
 .hide { display: none; }
