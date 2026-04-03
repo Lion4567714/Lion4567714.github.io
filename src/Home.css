@@ -1,0 +1,126 @@
+section {
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+}
+
+.horizontal-flex {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-flex {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.spacer {
+    height: 7.5vh;
+}
+
+#headshot {
+    height: 50vh;
+    margin: 16px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#headshot-text {
+    width: 30%;
+    padding-left: 32px;
+    text-align: left;
+
+    h1 {
+        font-family: "Martian Mono", monospace;
+    }
+
+    p {
+        padding-bottom: 16px;
+        font-family: "Arvo", serif;
+        font-size: 22px;
+    }
+
+    .tooltip-text {
+        position: relative;
+        border-bottom: 2px dotted black;
+        cursor: pointer;
+    }
+
+    .tooltip {
+        position: absolute;
+        top: -150%;
+        transform: translate(-65%, 25%);
+        width: fit-content;
+        white-space: nowrap;
+        opacity: 0;
+        background-color: white;
+        padding: 2px 8px;
+        border-radius: 8px;
+        box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+        transition: transform 0.15s ease-in-out, opacity 0.15s ease-in-out;
+    }
+
+    .tooltip::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        border: .75rem solid transparent;
+        border-bottom: none;
+        border-top-color: white;
+        filter: drop-shadow(0 0.0625rem 0.0625rem rgba(0, 0, 0, .2));
+    }
+
+    .tooltip-text:hover .tooltip {
+        transform: translate(-65%, 0%);
+        opacity: 1;
+    }
+}
+
+#travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-bg);
+}
+
+#usa {
+    width: 50%;
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+}
+
+.review-row {
+    width: 80%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.review-card {
+    width: 20em;
+    /* border: 2px solid black; */
+    font-family: "Arvo", serif;
+    
+    .state {
+        height: 10em;
+        padding: 2em;
+        filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black) drop-shadow(3px 3px 0 var(--accent));
+        transform: rotate(0deg);
+        transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+}
+
+.review-card:hover .state {
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black) drop-shadow(5px 5px 10px var(--accent));
+    transform: rotate(5deg);
+}
+
+.star {
+    height: 2em;
+}
