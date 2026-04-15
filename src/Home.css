@@ -1,6 +1,6 @@
 section {
-    padding-top: 7.5vh;
-    padding-bottom: 7.5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .horizontal-flex {
@@ -17,10 +17,6 @@ section {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-}
-
-.spacer {
-    height: 7.5vh;
 }
 
 #headshot {
@@ -82,11 +78,82 @@ section {
     }
 }
 
+#projects {
+    height: 50vh;
+    background-color: var(--accent-bg);
+}
+
+#project-menu {
+    display: flex;
+}
+
+#project-selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: width 0.5s ease;
+
+    .project-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .project-card {
+            width: 10vw;
+            height: 10vh;
+            margin: 2em;
+            padding: 1em; 
+            border: 3px solid black;
+            border-radius: 1em;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Arvo", serif;
+
+            h3 {
+                font-size: 24px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+#project-info {
+    width: 0;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 0.25em 0.25em 0.5em 0.5em;
+    overflow: hidden;
+    color: white;
+    font-family: "Google Sans Code", monospace;
+    transition: all 0.5s ease;
+
+    #project-info-header {
+        padding: 0.5em 1em 0.5em 1em;
+        display: flex;
+        justify-content: left;
+        background-color: black;
+        font-weight: lighter;
+    }
+
+    #project-info-content {
+        padding: 0.5em;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: start;
+        text-align: start;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
 #travel {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--accent-bg);
+    background-color: var(--bg);
 }
 
 #usa {
@@ -104,7 +171,6 @@ section {
 
 .review-card {
     width: 20em;
-    /* border: 2px solid black; */
     font-family: "Arvo", serif;
     
     .state {
@@ -118,7 +184,7 @@ section {
 
 .review-card:hover .state {
     filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black) drop-shadow(5px 5px 10px var(--accent));
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 .star {

@@ -35,6 +35,11 @@ header {
         height: 1.5em;
         padding: 0.75em;
         margin: 0.25em;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .nav-button:hover {
+        transform: scale(1.25);
       }
     }
   }
@@ -76,4 +81,16 @@ footer {
     padding: 5vh;
     font-size: 28px;
   }
+}
+
+.section-title {
+
+}
+
+.section-subtitle {
+  margin-bottom: 2em;
+  font-family: "Arvo", serif;
+  font-size: 16px;
+  font-style: italic;
+  opacity: 0.6;
 }
