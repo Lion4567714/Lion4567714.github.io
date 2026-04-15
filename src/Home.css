@@ -116,6 +116,10 @@ section {
                 font-weight: normal;
             }
         }
+
+        .selected {
+            background-color: var(--accent);
+        }
     }
 }
 

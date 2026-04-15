@@ -37,9 +37,8 @@ function ProjectMenu() {
     function ProjectCard(project: Project) {
         return (
             <button 
-                className="project-card" 
+                className={ project.name == sProject.name ? "project-card selected" : "project-card" }
                 onClick={(_) => {toggleMenu(project)}} 
-                style={{color: project.name == sProject.name ? "green" : "blue"}}
             >
                 <h3>{project.name}</h3>
             </button>
@@ -52,16 +51,20 @@ function ProjectMenu() {
                 <div className="project-row">
                     <ProjectCard 
                         name="Discord Bot"
+                        desc="This was part of an idea to add a little spice to my friends' Discord server. My bot can read messages, log them, and react via preprogrammed responses and the OpenAI API."
                         link="https://github.com/Lion4567714/lion_bot"/>
                     <ProjectCard 
                         name="OhMyPosh Theme"
+                        desc="To customize my linux terminal a little bit, I created my own OhMyPosh terminal theme. The theme is available for anyone to use via OhMyPosh and my public GitHub repository."
                         link="https://github.com/Lion4567714/lions_posh"/>
                     <ProjectCard 
-                        name="Mental Health App"/>
+                        name="Mental Health App"
+                        desc="Since I couldn't hold myself to keeping a paper journal, I decided to write a little mobile journaling app for myself. My focus was to make something very quick and easy to use to minimize the hassle of reviewing my day. More development work is required before I can fully make this project public."/>
                 </div>
                 <div className="project-row">
                     <ProjectCard 
                         name="Terrain Generator"
+                        desc="A procedural terrain generation simulation built as part of my final project for computer graphics class. It can generate completely random terrain and adapt to user-specified terrain constraints."
                         link="https://github.com/Lion4567714/prodecural_terrain_generation"/>
                     <ProjectCard 
                         name="This Website" 
